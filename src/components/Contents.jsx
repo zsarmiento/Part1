@@ -10,10 +10,9 @@ export const Contents = (props) =>{
     const tres = props.totalExercises[2];
     return(
         <div>
-            <p>{parte1} {uno}</p>
-            <p>{parte2} {dos}</p>
-            <p>{parte3} {tres}</p>
-            
+            <Parts parte={parte1} cant={uno}/>
+            <Parts parte={parte2} cant={dos}/>
+            <Parts parte={parte3} cant={tres}/>            
         </div>
     )
 }
